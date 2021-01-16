@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="src/imgs/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="src/icomoon/style.css">
+    <link rel="stylesheet" href="src/css/02-layout_header.css"/>
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <nav>
+          <div class="container">
+            <div class="log"><i class="icon icon-diamond"></i></div>
+            <menu>
+              <div class="menu"><a href="#">About</a></div>
+              <div class="menu"><a href="#">Products</a></div>
+              <div class="menu"><a href="#">Blog</a></div>
+              <div class="menu"><a href="#">Contract</a></div>
+            </menu>
+          </div>
+        </nav>
+        <div class="banner">
+          <img src="src/imgs/background.jpeg" alt="">
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=18468021&auto=1&height=66"></iframe>
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=5147594&auto=1&height=66"></iframe>
+        </div>
+      </header>
+    </div>
+    <script>
+      const App = {
+        data() {
+          return {
+            banner: ["","",]
+          }
+        }
+      };
+      Vue.createApp(App).mount('#app');
+    </script>
+  </body>
+</html>

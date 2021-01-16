@@ -1,0 +1,39 @@
+.layout-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app .card {
+  width: 240px;
+  height: 280px;
+  box-shadow: 2px 2px 16px 2px rgba(0, 0, 0, 0.3);
+}
+#app .card img {
+  width: inherit;
+  height: 120px;
+}
+#app .card .card-text {
+  padding: 0 10px;
+}
+#app .card .card-text h5 {
+  font-size: 14px;
+  line-height: 0px;
+}
+#app .card .card-text .content {
+  font-size: 13px;
+}
+#app .card .card-text .reference {
+  margin-top: 6px;
+}
+#app .card .card-text .reference span {
+  font-size: 13px;
+}
+#app .card .card-text .reference a {
+  font-size: 13px;
+}

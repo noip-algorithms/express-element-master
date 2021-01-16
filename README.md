@@ -52,3 +52,26 @@
   ```bash
   localhost:3000              
   ```
+
+### 2.1  Page of Home
+
+#### 2.1.1 header section
+
++ 详见 02-layout_header.html
+
+#### 2.1.2 layout 
+
++ 详见 01-layout.html
+
+#### 2.1.3  footer section
+
++ 详见 04-layout_footer.html
+
+#### 2.1.4 main section
+
++ 详见 03-layout_main.html
+
+
+### 
+
+

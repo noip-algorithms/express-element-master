@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="src/imgs/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="src/icomoon/style.css">
+    <link rel="stylesheet" href="src/css/04-layout-footer.css"/>
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <nav>
+          <div class="container">
+            <div class="log"><i class="icon icon-diamond"></i></div>
+            <menu>
+              <div class="menu"><a href="#">About</a></div>
+              <div class="menu"><a href="#">Products</a></div>
+              <div class="menu"><a href="#">Blog</a></div>
+              <div class="menu"><a href="#">Contract</a></div>
+            </menu>
+          </div>
+        </nav>
+        <div class="banner">
+          <img src="src/imgs/background.jpeg" alt="">
+        </div>
+      </header>
+      <main>
+        <div class="container"></div>
+      </main>
+      <footer>
+        <div class="container">
+          <p>&copy;All right reserved by by YangYiXin Co.Ltd.</p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      const App = {
+        data() {
+          return {
+            banner: ["","",],
+            cards: 12
+          }
+        }
+      };
+      Vue.createApp(App).mount('#app');
+    </script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+.layout-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app {
+  min-height: 100vh;
+  .layout-center;
+  .card {
+    width: 240px;
+    height: 280px;
+    // border: 1px solid #000;
+    box-shadow: 2px 2px 16px 2px rgba(0,0,0,.3);
+    img {
+      width: inherit;
+      height: 120px;
+    }
+    .card-text {
+      padding: 0 10px;
+      h5 {
+        font-size: 14px;
+        line-height: 0px;
+      }
+      .content {
+        font-size: 13px;
+      }
+      .reference {
+        margin-top: 6px;
+        span {
+          font-size: 13px;
+        }
+        a {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

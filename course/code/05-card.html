@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="src/imgs/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="src/css/05-card.css"/>
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="card">
+        <img src="src/imgs/background.jpeg" alt="background">
+       <div class="card-text">
+        <h5 class="title">Song of Silence</h5>
+        <div class="content">
+          Hello darkness, my old friend,
+          I've come to talk with you again,
+          Because a vision softly creeping,
+          Left its seeds while I was sleeping,
+          And the vision that was planted in my brain
+        </div>
+        <div class="reference" dir="rtl">
+          <span>Reference: Song of Silence </span>
+          <a href="https://www.baidu.com">Baidu</a>
+        </div>
+       </div>
+      </div>
+    </div>
+    <script>
+      const App = {
+        data() {return {}}
+      };
+      Vue.createApp(App).mount('#app');
+    </script>
+  </body>
+</html>
